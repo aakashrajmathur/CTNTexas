@@ -13,14 +13,42 @@ namespace CTNTexas.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult ClinicalStudies()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Facility()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Awards()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult CommunityService()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult AboutUs()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult ContactUs()
         {
             ViewBag.Message = "Your contact page.";
 
