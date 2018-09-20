@@ -13,34 +13,55 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body style="min-width:700px">
-    <nav style="background-color:#F8F8F8; height:120px; padding-top:10px">
-        <div class="container">
-            <div class="row">
-                <div class="col s8">
-                    <img src="~/Content/images/ctnLogo.png" class="left" />
-                </div>                
-                <div class="col s4">                   
-                    <div class="row">
-                        <div class="col s12 blue-grey-text" style="line-height:24px">
-                            <div class="row" style="margin-bottom: 0px">
-                                <div class="col s4 center" style="line-height:24px">
-                                    
-                                </div>
-                                <div class="col s8 center">
-                                    <a href="http://facebook.com"><img src="~/Content/images/facebook.png" height="24" style="padding-right:5px" /></a>
-                                    <a href="http://twitter.com"><img src="~/Content/images/twitter.png" height="24" /></a>
-                                </div>
+<body>
+    <div class="hide-on-med-and-down">
+        <nav style="background-color:#F8F8F8; height:auto; padding-top:10px">
+            <div class="container">
+                <div class="row">
+                    <div class="col l8 m6 s12">
+                        <img src="~/Content/images/ctnLogo.png" class="left" style="width:auto; height:auto; max-height:100px" />
+                    </div>
+                    <div class="col l4 m6 s12">
+                        <div class="row">
+                            <div class="col s12" style="line-height:24px">
+                                <a href="http://facebook.com"><img src="~/Content/images/facebook.png" height="24" style="padding-right:5px" /></a>
+                                <a href="http://twitter.com"><img src="~/Content/images/twitter.png" height="24" /></a>                                
                             </div>
+                            <div class="col s12 blue-grey-text" style="line-height:24px"><a href="http://www.google.com/"><img src="~/Content/images/Dial.png" height="24"></a>&nbsp;&nbsp;(713) 484-6947</div>
+                            <div class="col s12 blue-grey-text" style="line-height:24px"><a href="https://goo.gl/maps/B4Jy6fVznH82" target="_blank"><img src="~/Content/images/Address.png" height="24"></a>&nbsp;&nbsp;7080 Southwest Freeway</div>
+                            <div class="col s12 blue-grey-text" style="line-height:24px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Houston TX 77074</div>
                         </div>
-                        <div class="col s12 blue-grey-text" style="line-height:24px">(713) 484-6947</div>
-                        <div class="col s12 blue-grey-text" style="line-height:24px">7080 Southwest Freeway</div>
-                        <div class="col s12 blue-grey-text" style="line-height:24px">Houston TX 77074</div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
+    
+    <div class="hide-on-large-only">
+        <nav style="background-color:#F8F8F8; height:auto; padding-top:10px">
+            <div class="container">
+                <div class="row">
+                    <div class="col m12 s12">
+                        <img src="~/Content/images/ctnLogo.png" class="center" style="width:auto; height:auto; max-height:100px" />
+                    </div>
+                    <div class="col m1 s1">i</div>
+                    <div class="col m5 s5 left blue-grey-text">7080 SW Freeway</div>
+                    <div class="col m5 s5 right blue-grey-text"> (713) 484-6947</div>
+                    <div class="col m1 s1 red">i</div>
+
+                    <div class="col m1 s1"></div>
+                    <div class="col m5 s5 left blue-grey-text">Houston TX 77074</div>
+                    <div class="col m5 s5 right blue-grey-text">
+                        <a href="http://facebook.com"><img src="~/Content/images/facebook.png" height="24" style="padding-right:5px" /></a>
+                        <a href="http://twitter.com"><img src="~/Content/images/twitter.png" height="24" /></a>
+                    </div>
+                    <div class="col m1 s1"></div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    
 
     <div class="container body-content">
         @RenderBody()               
@@ -55,3 +76,9 @@
     @RenderSection("scripts", required: false)
 </body>
 </html>
+
+
+<!-- 
+    Social Media icons: 
+    https://dribbble.com/shots/1209419-20-Social-Media-Icons-Freebie
+    -->

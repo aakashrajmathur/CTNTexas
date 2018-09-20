@@ -149,7 +149,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\Address.png" />
+    <Content Include="Content\images\Call.png" />
     <Content Include="Content\images\ctnLogo.png" />
+    <Content Include="Content\images\Dial.png" />
     <Content Include="Content\images\facebook.png" />
     <Content Include="Content\images\header_image2.jpg" />
     <Content Include="Content\images\twitter.png" />
@@ -174,6 +177,7 @@
     <Content Include="Content\fonts\roboto\Roboto-Regular.woff2" />
     <Content Include="Content\fonts\roboto\Roboto-Thin.woff" />
     <Content Include="Content\fonts\roboto\Roboto-Thin.woff2" />
+    <None Include="Properties\PublishProfiles\CTNTexas - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
